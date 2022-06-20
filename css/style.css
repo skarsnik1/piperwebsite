@@ -1,0 +1,11 @@
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #007765;
+    width: auto;
+    height: 84px;
+}
+.navbar{
+    display: flex;
+}
