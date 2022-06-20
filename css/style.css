@@ -63,9 +63,18 @@
     padding-top: 48px;
     padding-bottom: 16px;
 }
-.list {
+.li3 {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 1;
+    max-width: 1110px;
     height: 488px;
+    text-align: left;
+    font-family: "Roboto";
+    font-size: 32px;
+    line-height: 37.5px;
+}
+b {
+    font-weight: 700;
 }
