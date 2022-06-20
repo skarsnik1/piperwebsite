@@ -1,4 +1,4 @@
-.conteiner {
+.conteiner1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,9 +34,11 @@
     width: 100%;
     height: 403px;
     background: url("../img/image.png");
-    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    align-items:center;
 }
-.content2 {
+.content {
     font-family: "Roboto";
     color: #FFFFFF;
     font-size: 72px;
