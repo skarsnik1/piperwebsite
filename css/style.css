@@ -5,7 +5,22 @@
     background-color: #007765;
     width: auto;
     height: 84px;
+    flex:1 1 auto;
 }
 .navbar{
     display: flex;
+    font-family: "Roboto";
+    color: #FFFFFF;
+}
+.problem {
+    padding-right: 10px;
+}
+.team {
+    padding-left: 10px;
+}
+.pied {
+    padding-left: 12px;
+    padding-right: 12px;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
 }
