@@ -174,3 +174,26 @@ h1.content4 {
     font-size: 64px;
     color: #007765;
 }
+
+.ppc {
+    display: flex;
+    width: 1110px;
+    height: 373px;
+    margin-top: 16px;
+    font-family: "Roboto";
+    font-size: 32px;
+    color: #000000;
+}
+
+.ppclogo {
+    display: flex;
+    justify-content: space-around;
+    width: 1110px;
+    height: 115px;
+}
+
+p.ppclogo {
+    width: 930px;
+    height: 110px;
+    padding-left: 48px;
+}
