@@ -104,7 +104,8 @@ h1 {
     font-size: 64px;
     color: #007765;
 }
-.conteiner2{
+
+.conteiner2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -116,3 +117,4 @@ h1 {
     font-size: 32px;
     color: #000000;
 }
+
