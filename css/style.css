@@ -66,9 +66,14 @@
 }
 
 .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1219px;
+    height: 83px;
     font-family: "Roboto";
-    color: #FFFFFF;
     font-size: 72px;
+    color: #FFFFFF;
 }
 
 /* .block3 {
