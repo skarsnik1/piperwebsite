@@ -78,9 +78,10 @@
 
 .block2 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 403px;
+    height: 719px;
     background-color: #EEEEEE;
 }
 
@@ -108,6 +109,7 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
+    margin-top: 16px;
     width: 1110px;
     height: 488px;
     font-family: "Roboto";
