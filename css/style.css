@@ -227,12 +227,21 @@ h1.content4 {
 }
 
 .block5 {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 845px;
     background-color: #EEEEEE;
 }
 
 h1.content5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1110px;
     height: 75px;
+    height: 75px;
+    font-family: "Roboto";
+    font-size: 64px;
+    color: #007765;
 }
