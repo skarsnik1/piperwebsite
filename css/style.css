@@ -177,6 +177,7 @@ h1.content4 {
 
 .ppc {
     display: flex;
+    justify-content: center;
     width: 1110px;
     height: 373px;
     margin-top: 16px;
@@ -196,4 +197,12 @@ p.ppclogo {
     width: 930px;
     height: 110px;
     padding-left: 48px;
+}
+
+.ppclogo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1110px;
+    height: 223px;
 }
