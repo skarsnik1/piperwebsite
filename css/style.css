@@ -54,25 +54,24 @@
     padding-left: 11px;
 }
 
-
-
-/* .block2 {
+.block1 {
     display: flex;
     width: 100%;
     height: 403px;
     background: url("../img/image.png");
+    background-size: cover;
     background-position: center center;
     justify-content: center;
     align-items: center;
 }
 
-.content2 {
+.content1 {
     font-family: "Roboto";
     color: #FFFFFF;
     font-size: 72px;
 }
 
-.block3 {
+/* .block3 {
     display: flex;
     justify-content: center;
     width: 100%;
