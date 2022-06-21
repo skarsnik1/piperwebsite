@@ -79,7 +79,6 @@
 .block2 {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     height: 403px;
     background-color: #EEEEEE;
@@ -91,7 +90,7 @@
     align-items: center;
     justify-content: flex-start;
     width: 1219px;
-    height: 403px;
+    height: 719px;
 }
 
 h1 {
@@ -104,8 +103,13 @@ h1 {
     font-size: 64px;
     color: #007765;
 }
-
-p {
+.conteiner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    width: 1110px;
+    height: 488px;
     font-family: "Roboto";
     font-size: 32px;
     color: #000000;
