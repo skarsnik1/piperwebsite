@@ -249,6 +249,31 @@ h1.content5 {
 
 .foto {
     display: flex;
+    align-items: center;
     width: 1110px;
     height: 596px;
+}
+
+.foto1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p.foto1 {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    color: #007765;
+    width: 199px;
+    height: 29px;
+    line-height: 28.13px;
+}
+
+p.foto1i {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
 }
