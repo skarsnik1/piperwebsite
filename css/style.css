@@ -120,6 +120,10 @@ h1.content2 {
     color: #000000;
 }
 
+.cont {
+    font-weight: 700;
+}
+
 .block3 {
     display: flex;
     justify-content: center;
