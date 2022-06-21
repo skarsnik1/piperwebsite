@@ -94,7 +94,7 @@
     height: 719px;
 }
 
-h1 {
+h1.content2 {
     display: flex;
     justify-content: center;
     margin-top: 48px;
@@ -162,4 +162,8 @@ h1 {
     display: flex;
     justify-content: center;
     width: 1219px;
+}
+
+h1.content4 {
+    
 }
