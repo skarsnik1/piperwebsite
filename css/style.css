@@ -1,279 +1,52 @@
-.head {
-    display: flex;
-    justify-content: space-around;
-    position: sticky;
-    top: 0;
-    align-items: center;
-    width: 100%;
+.header {
+    min-width: 2011px;
+    min-width: 50px;
     height: 84px;
-    flex: 1 1 100%;
     background-color: #007765;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    font-family: "Roboto";
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 184px;
-    height: 45px;
-}
-
-.problem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 129px;
-    height: 29px;
-    padding-right: 10.5px;
-}
-
-.pied {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 153px;
-    height: 29px;
-    padding-left: 11.5px;
-    padding-right: 11.5px;
-    border-left: 2px solid #FFFFFF;
-    border-right: 2px solid #FFFFFF;
-}
-
-.team {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 95px;
-    height: 29px;
-    padding-left: 11px;
-}
-
-.block1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.jumbotron {
+    min-width: 2011px;
+    min-width: 50px;
     height: 403px;
-    background: url("../img/image.png");
-    background-size: cover;
+    background: url(../img/image.png);
     background-position: center center;
+    background-size: cover;
 }
 
-.content1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1219px;
-    height: 83px;
-    font-family: "Roboto";
-    font-size: 72px;
-    color: #FFFFFF;
-}
-
-.block2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+.theproblem {
+    min-width: 2011px;
+    min-width: 50px;
     height: 719px;
     background-color: #EEEEEE;
 }
 
-.content2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 1219px;
-    height: 719px;
-}
-
-h1.content2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 48px;
-    width: 1107px;
-    height: 75px;
-    font-family: "Roboto";
-    font-size: 64px;
-    color: #007765;
-}
-
-.conteiner2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: left;
-    margin-top: 16px;
-    width: 1110px;
-    height: 488px;
-    font-family: "Roboto";
-    font-size: 32px;
-    color: #000000;
-}
-
-.cont {
-    font-weight: 700;
-}
-
-.block3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.hero {
+    min-width: 2011px;
+    min-width: 50px;
     height: 483px;
     background: url(../img/hero.png);
     background-position: center center;
     background-size: cover;
 }
 
-.content3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1219px;
-    height: 228px;
-}
-
-.conteiner3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 893px;
-    height: 228px;
-    text-align: center;
-    font-family: "Roboto";
-    font-style: italic;
-    font-size: 48px;
-    color: #FFFFFF;
-}
-
-.block4 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.ppc {
+    min-width: 2011px;
+    min-width: 50px;
     height: 604px;
     background-color: #FFFFFF;
 }
 
-.content4 {
-    display: flex;
-    justify-content: center;
-    width: 1219px;
-}
-
-h1.content4 {
-    display: flex;
-    justify-content: center;
-    margin-top: 48px;
-    width: 1104px;
-    height: 75px;
-    font-family: "Roboto";
-    font-size: 64px;
-    color: #007765;
-}
-
-.block4 {
-    width: 100%;
-    height: 604px;
-}
-
-.conteiner4 {
-    display: flex;
-    flex-direction: column;
-}
-
-.ppc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 1110px;
-    height: 373px;
-    margin-top: 16px;
-    font-family: "Roboto";
-    font-size: 32px;
-    color: #000000;
-}
-
-.ppclogo {
-    display: flex;
-    text-align: left;
-    float: left;
-    width: 1110px;
-    height: 115px;
-}
-
-.ppctext {
-    margin-left: 48px;
-    float: left;
-}
-
-.ppclogo2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
-    margin-top: 35px;
-    width: 1110px;
-    height: 223px;
-}
-
-.block5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+.theteam {
+    min-width: 2011px;
+    min-width: 50px;
     height: 845px;
     background-color: #EEEEEE;
 }
 
-h1.content5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1110px;
-    height: 75px;
-    font-family: "Roboto";
-    font-size: 64px;
-    color: #007765;
-    margin-top: 58px;
-}
-
-.foto {
-    display: flex;
-    align-items: center;
-    width: 1110px;
-    height: 596px;
-}
-
-.foto1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-p.foto1 {
-    font-family: "Roboto";
-    font-size: 24px;
-    font-weight: 700;
-    color: #007765;
-    width: 199px;
-    height: 29px;
-    line-height: 28.13px;
-}
-
-p.foto1i {
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.09px;
+.footer {
+    min-width: 2011px;
+    min-width: 50px;
+    height: 176px;
+    background-color: #333333;
 }
