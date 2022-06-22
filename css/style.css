@@ -125,10 +125,55 @@ b {
 }
 
 .ppc {
-    min-width: 2011px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
     min-width: 50px;
     height: 604px;
     background-color: #FFFFFF;
+}
+
+.ppc_title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.ppc_top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    min-width: 50px;
+    font-family: "Roboto";
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #000000;
+}
+
+.ppclogo {
+    margin-right: 48px;
+}
+
+.ppc_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1110px;
+    min-width: 50px;
+    height: 223px;
+    margin-top: 40px;
+    font-family: "Roboto";
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #000000;
 }
 
 .theteam {
