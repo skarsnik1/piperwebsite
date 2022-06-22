@@ -1,8 +1,40 @@
 .header {
-    min-width: 2011px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 100%;
     min-width: 50px;
-    height: 84px;
     background-color: #007765;
+}
+
+.logo {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #FFFFFF;
+    max-width: 424px;
+    min-width: 50px;
+    height: 29px;
+    margin-top: 28px;
+    margin-bottom: 27px;
+}
+
+.navbar_p {
+    margin-left: 11px;
+    margin-right: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
 }
 
 .jumbotron {
