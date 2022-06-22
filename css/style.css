@@ -38,12 +38,26 @@
 }
 
 .jumbotron {
-    min-width: 2011px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
     min-width: 50px;
     height: 403px;
     background: url(../img/image.png);
     background-position: center center;
     background-size: cover;
+}
+
+.jumbotron_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 72px;
+    color: #FFFFFF;
 }
 
 .theproblem {
