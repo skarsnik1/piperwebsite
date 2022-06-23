@@ -8,8 +8,8 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 84px;
     background-color: #007765;
@@ -49,7 +49,13 @@ body {
     border-right: 2px solid #FFFFFF;
     padding-left: 12px;
     padding-right: 12px;
+    text-decoration: none;
 
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .jumbotron {
