@@ -319,3 +319,43 @@ i {
     line-height: 21px;
     color: #000000;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 176px;
+    max-height: none;
+    background-color: #333333;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: none;
+    max-width: 1219px;
+    min-height: 64px;
+    max-height: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: none;
+    max-width: 540px;
+    min-height: 64px;
+    max-height: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
