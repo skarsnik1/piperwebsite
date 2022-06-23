@@ -1,50 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .header {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
     /* position: sticky;
     top: 0; */
-    align-items: center;
-    max-width: 100%;
-    min-width: 50px;
+    width: 100%;
+    height: 84px;
     background-color: #007765;
 }
 
-.logo {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 19px;
-}
-
-.navbar {
+.header_content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    font-family: "Roboto";
-    font-size: 24px;
-    color: #FFFFFF;
-    max-width: 424px;
-    min-width: 50px;
-    height: 29px;
-    margin-top: 28px;
-    margin-bottom: 27px;
+    align-items: center;
+    width: 1219px;
+    height: 84px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
-.navbar_p {
-    margin-left: 11px;
-    margin-right: 11px;
-    padding-left: 11px;
-    padding-right: 11px;
+.header_logo {
+    padding-right: 24px;
+}
+
+.header_navbar {
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.navbar_ppc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
     border-left: 2px solid #FFFFFF;
     border-right: 2px solid #FFFFFF;
+    padding-left: 12px;
+    padding-right: 12px;
+
 }
 
 .jumbotron {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    min-width: 50px;
+    width: 100%;
     height: 403px;
     background: url(../img/image.png);
     background-position: center center;
@@ -55,56 +67,82 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     text-align: center;
-    font-family: "Roboto";
+    width: 1219px;
+    height: auto;
+    font-family: 'Roboto';
+    font-weight: 500;
     font-size: 72px;
+    line-height: 84px;
     color: #FFFFFF;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 .theproblem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
-    min-width: 50px;
-    height: 719px;
+    width: 100%;
+    height: auto;
     background-color: #EEEEEE;
-}
-
-.theproblem_title {
-    font-family: "Roboto";
-    font-size: 64px;
-    color: #007765;
-    margin-top: 48px;
-    margin-bottom: 16px;
-    line-height: 75px;
 }
 
 .theproblem_content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    max-width: 1110px;
-    min-width: 50px;
-    height: 488px;
-    font-family: "Roboto";
+    align-items: center;
+    max-width: 1219px;
+    height: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.theproblem_title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.theproblem_text {
+    display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 488px;
+    max-height: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 32px;
+    line-height: 38px;
     color: #000000;
-    line-height: 37.5px;
+    padding-bottom: 92px;
 }
 
 b {
     font-weight: 700;
 }
 
+.theproblem_text1 {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    min-width: 50px;
-    height: 483px;
+    width: 100%;
+    min-height: 483px;
+    max-height: 100%;
     background: url(../img/hero.png);
     background-position: center center;
     background-size: cover;
@@ -113,79 +151,55 @@ b {
 .hero_content {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.hero_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     max-width: 893px;
-    min-width: 50px;
-    height: 228px;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-style: italic;
+    font-weight: 500;
     font-size: 48px;
+    line-height: 56px;
     color: #FFFFFF;
-    line-height: 56.25px;
 }
 
 .ppc {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 604px;
+    max-height: 100%;
+    color: #FFFFFF;
+}
+
+.ppc_content {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
-    min-width: 50px;
-    height: 604px;
-    background-color: #FFFFFF;
+    max-width: 1219px;
+    min-height: 464px;
+    max-height: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 48px;
+    padding-bottom: 92px;
 }
 
 .ppc_title {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-    font-family: "Roboto";
+    font-family: 'Roboto';
+    font-weight: 500;
     font-size: 64px;
     line-height: 75px;
+    text-align: center;
     color: #007765;
-    margin-top: 48px;
-    margin-bottom: 16px;
-}
-
-.ppc_top {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1110px;
-    min-width: 50px;
-    font-family: "Roboto";
-    font-size: 32px;
-    line-height: 37.5px;
-    color: #000000;
-}
-
-.ppclogo {
-    margin-right: 48px;
-}
-
-.ppc_bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 1110px;
-    min-width: 50px;
-    height: 223px;
-    margin-top: 40px;
-    font-family: "Roboto";
-    font-size: 32px;
-    line-height: 37.5px;
-    color: #000000;
-}
-
-.theteam {
-    min-width: 2011px;
-    min-width: 50px;
-    height: 845px;
-    background-color: #EEEEEE;
-}
-
-.footer {
-    min-width: 2011px;
-    min-width: 50px;
-    height: 176px;
-    background-color: #333333;
+    padding-bottom: 16px;
 }
