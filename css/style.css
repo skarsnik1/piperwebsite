@@ -250,3 +250,72 @@ b {
 i {
     font-style: italic;
 }
+
+.theteam {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 845px;
+    max-height: 100%;
+    background-color: #EEEEEE;
+}
+
+.theteam_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1219px;
+    min-width: none;
+    min-height: 703px;
+    max-height: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 48px;
+    padding-bottom: 94px;
+}
+
+.theteam_title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.theteam_card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 32px;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 283px;
+}
+
+.card_name {
+    padding-top: 12px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.card_jobtitle {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
