@@ -69,6 +69,12 @@ a {
     background-size: cover;
 }
 
+.anchor {
+    display: flex;
+    align-self:flex-end;
+    padding-top: 84px;
+}
+
 .jumbotron_content {
     display: flex;
     justify-content: center;
