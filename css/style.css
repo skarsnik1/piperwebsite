@@ -4,9 +4,11 @@ body {
     align-items: center;
     width: 100%;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .header {
     display: flex;
     justify-content: center;
@@ -60,8 +62,8 @@ a {
     color: #FFFFFF;
 }
 
-a:hover{
-    color: gold;
+a:hover {
+    color: orange;
     font-size: 30px;
     transition: 0.3s;
 }
@@ -320,6 +322,14 @@ i {
     justify-content: center;
     width: 350px;
     height: 283px;
+}
+
+.card_foto img:hover {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 .card_name {
